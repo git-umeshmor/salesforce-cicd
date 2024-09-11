@@ -13,4 +13,14 @@ public with sharing class OpportunityWrapperDemo {
     public string  associatedResContactEmail {get;set;}
     @AuraEnabled
     public string  associatedResContactPhone {get;set;}
+    @AuraEnabled
+    public string  oppName {get;set;}
+    @AuraEnabled
+    public string  acc {get;set;}
+    @AuraEnabled
+    public string  Email {get;set;}
+    @AuraEnabled
+    public string  oppAccRescentContactEmail {get;set;}
+    @AuraEnabled
+    public string  oppAccRescentContactPhone {get;set;}
 }
